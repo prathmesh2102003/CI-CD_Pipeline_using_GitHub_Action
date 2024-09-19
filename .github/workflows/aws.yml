@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: my_new_ecr           # set this to your Amazon ECR repository name
   ECS_SERVICE: nodejs                 # set this to your Amazon ECS service name
   ECS_CLUSTER: mycluster                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: my-new-task-defination # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: my-new-task-defination:2 # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: nodejs           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
